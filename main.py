@@ -4,8 +4,8 @@
 
 import pygame
 
-from assets.map import Map
-from player import Player
+from src.components.map import Map
+from src.components.player import Player
 
 class Surv_App:
     def __init__(self) -> None:

@@ -70,7 +70,7 @@ class Grass_Block(Block):
         super().__init__(surface)
 
         self.set_id(1)
-        self.set_sprite(pygame.image.load('Game/images/grass_block.png').convert_alpha())
+        self.set_sprite(pygame.image.load('src/images/grass_block.png').convert_alpha())
 
         self.set_durability(3)
 
@@ -80,7 +80,7 @@ class Grass_blue_flower(Block):
         super().__init__(surface)
 
         self.set_id(2)
-        self.set_sprite(pygame.image.load('Game/images/grass_block_blue_flower.png').convert_alpha())
+        self.set_sprite(pygame.image.load('src/images/grass_block_blue_flower.png').convert_alpha())
 
         self.set_durability(3)
 
@@ -90,7 +90,7 @@ class Grass_yellow_flower(Block):
         super().__init__(surface)
 
         self.set_id(3)
-        self.set_sprite(pygame.image.load('Game/images/grass_block_yellow_flower.png').convert_alpha())
+        self.set_sprite(pygame.image.load('src/images/grass_block_yellow_flower.png').convert_alpha())
 
         self.set_durability(3)
     
@@ -100,7 +100,7 @@ class Stone_block(Block):
         super().__init__(surface)
 
         self.set_id(4)
-        self.set_sprite(pygame.image.load('Game/images/stone_block.png').convert_alpha())
+        self.set_sprite(pygame.image.load('src/images/stone_block.png').convert_alpha())
         
         self.set_durability(10)
 
@@ -109,6 +109,6 @@ class Rock_block(Block):
         super().__init__(surface)
 
         self.set_id(5)
-        self.set_sprite(pygame.image.load('Game/images/rock_block.png').convert_alpha())
+        self.set_sprite(pygame.image.load('src/images/rock_block.png').convert_alpha())
         
         self.set_durability(14)

@@ -1,6 +1,6 @@
 import pygame
 
-from assets.blocks import *
+from src.components.blocks import *
 
 
 class Map:
@@ -22,7 +22,7 @@ class Map:
         }
 
     def load_tiles(self):
-        self.file = open('Game/script/assets/map_matrix.txt', 'r')
+        self.file = open('src/assets/map_matrix.txt', 'r')
         self.tiles_map = []
         for line in self.get_file():
             layer = list(data.strip().split(',') for data in line.strip().split(';'))
